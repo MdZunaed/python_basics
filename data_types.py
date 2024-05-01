@@ -40,14 +40,14 @@ dictionaryType = {'name': "Zunayed", 'roll': 450197, 'male': True}
 
 # dictionary is key value pair, mutable(changable), doesn't allow duplicate 'key'{'key': 'value'}
 
-print(dictionaryType)
-print(dictionaryType['name'])
-dictionaryType['roll'] = 1
-print(dictionaryType)
-dictionaryType['result'] = 4.85
-print(dictionaryType)
-dictionaryType.pop('male')
-print(dictionaryType)
+# print(dictionaryType)
+# print(dictionaryType['name'])
+# dictionaryType['roll'] = 1
+# print(dictionaryType)
+# dictionaryType['result'] = 4.85
+# print(dictionaryType)
+# dictionaryType.pop('male')
+# print(dictionaryType)
 
 
 
