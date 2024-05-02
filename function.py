@@ -1,5 +1,12 @@
 def sumTwoNumber(a,b):
     sum = a+ b
-    return f"Total sum is {sum}"
+    return f"Total sum of {a} & {b} is {sum}"
 
-print(sumTwoNumber(15,17))
+def subTwoNumber(a,b):
+    sub = a-b
+    return f"sumation of {a} & {b} is {sub}"
+
+sum = sumTwoNumber(12,28)
+sub = subTwoNumber(37, 12)
+print(sum)
+print(sub)
