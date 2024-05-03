@@ -51,8 +51,10 @@ for item in fruits:
          
 ###### 1+3+5+7+...+99 = ? 
 
-# sum = 0
-# while 1 < 101:
-#     sum = sum+1
-# print(sum)
+sum = 0
+counter = 1
+while counter <= 100:
+    sum += counter
+    counter += 1
+print(sum)
 
