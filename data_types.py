@@ -16,31 +16,31 @@ dictionaryType = {'name': "Zunayed", 'roll': 450197, 'male': True,
 
 # list is mutable(changable), ordered, []
 
-# listType.append('apple')
-# listType.insert(1,'orange')
-# listType.remove('mango')
-# listType.reverse()
-# print(len(listType))
+listType.append('apple')
+listType.insert(1,'orange')
+listType.remove('mango')
+listType.reverse()
+print(len(listType))
 
 ########## Tuple ##########
 
 # tuple is immutable(not changable), ordered, able to duplicate ()
 
-# listFromTuple= list(tupleType)
-# listFromTuple.append('johan')
-# tupleType = listFromTuple
-# print(tupleType)
+listFromTuple= list(tupleType)
+listFromTuple.append('johan')
+tupleType = listFromTuple
+print(tupleType)
 
 ########## Set ##########
 
 # set is mutable(changable), unordered, doesn't allow duplicate {}
 
-# setTwo = {2,4,6,12}
-# setType.add(50)
-# setType.remove(8)
-# setTwo.update(setType)
-# print(setType)
-# print(setTwo)
+setTwo = {2,4,6,12}
+setType.add(50)
+setType.remove(8)
+setTwo.update(setType)
+print(setType)
+print(setTwo)
 
 ########## Dictionary ##########
 
